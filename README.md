@@ -6,28 +6,14 @@
 ![Lines of code](https://img.shields.io/tokei/lines/github/KennethTrecy/eslint-config-whitelistyle?style=for-the-badge)
 ![GitHub code size in bytes](https://img.shields.io/github/repo-size/KennethTrecy/eslint-config-whitelistyle?style=for-the-badge)
 
-# Web Template
-This is a web template repository of Kenneth Trecy Tobias. Its purpose is to be used for other
-templates/projects either by forking this repository, copying its files, or merging its history to
-other existing templates/projects.
-
-This template has multiple branches that are named after the main package(s)/purpose they contain.
-For example, [`vue` branch] contains [`vue` package]. If branch has multiple packages/purpose, they
-are concatenated using `-` character. By default, most branches contain [`rollup` package] as
-default JavaScript module bundler.
-
-You can check the packages and/or purpose of the branch by reading the [notes] section.
-
-<!--
-The `origin` section may be used to indicate where the project (that is using this template) came
-from or based from.
+# Whitelistyle
+An ESLint configuration which allows the developer to set rules by relaxing or *whitelist* them,
+hence the package name.
 
 ## Origin
 Some parts of the repository was based from [`filled_package_json`] branch of [Web Template].
 
-The template is specialize for front-end development.
-
--->
+The template has been specialized for front-end development.
 
 ## Usage
 You can modify this repository's files' content or names as much as you want.
@@ -57,41 +43,7 @@ To generate the change log automatically, run the command below:
 $ npx changelogen --from=[tag name or branch name or commit itself] --to=master
 ```
 
-### Syncing template
-You can merge this repository's history with your current project to synchronized your files from the
-template. Steps below indicate how you can synchronize the changes.
-1. Run `git remote add template [URL of this repository]`.
-2. Run `git fetch template [branch you want to use from the template]`.
-3. Run `git checkout template/[branch you want to use from the template]`.
-4. Run `git checkout -b template--[branch you want to use from the template]`.
-5. Run `git checkout -b merged_template`. Creates a branch where `master` branch will be merged with
-   your chosen branch from template.
-6. Run `git merge master --allow-unrelated-histories`. Fix merged conflicts if you encounter them
-   then commit.
-
-After step 6, it is ready. Just run the command below to sync the changes from template.
-```
-./merge_from_template.ps1 [branch you want to use from the template]
-```
-
-### License
-The repository is licensed under [MIT]. Since this is a template repository, you can remove
-license file if you want to use other license, or you can use the template repository for a private
-template/project. You can run one of the following commands below:
-- Run `./revert_commits_to.ps1 strict` to revert the license back to MIT license.
-- Run `./revert_commits_to.ps1 remove` to remove the license completely.
-- Run `./revert_commits_to.ps1 retain` does nothing aside from informing you that license will be
-  retained.
-
-After that, *revert_commits_to.ps1* will be removed.
-
 ## Notes
-It is optional to attribute this repository in other template/projects.
-
-### Branch
-This branch can be used to other branches, templates, or projects.
-
-Its name is `filled_package_json` because it already has information that most other branches need.
 
 ### Want to contribute?
 Read the [contributing guide] for different ways to contribute in the project.
@@ -99,17 +51,11 @@ Read the [contributing guide] for different ways to contribute in the project.
 ### Author
 Coded by Kenneth Trecy Tobias.
 
-<!--
+### License
+The repository is licensed under [MIT].
 
 [`filled_package_json`]: https://github.com/KennethTrecy/eslint-config-whitelistyle/tree/filled_package_json
 [Web Template]: https://github.com/KennethTrecy/eslint-config-whitelistyle/
-
--->
-
-[notes]: #notes
-[`vue` branch]: https://github.com/KennethTrecy/eslint-config-whitelistyle/tree/vue
-[`vue` package]: https://www.npmjs.com/package/vue
-[`rollup` package]: https://www.npmjs.com/package/rollup
 [MIT]: https://github.com/KennethTrecy/eslint-config-whitelistyle/blob/master/LICENSE
 [Node.js and NPM]: https://nodejs.org/en/
 [pnpm]: https://pnpm.io/installation
