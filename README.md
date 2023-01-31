@@ -16,15 +16,34 @@ Some parts of the repository was based from [`filled_package_json`] branch of [W
 The template has been specialized for front-end development.
 
 ## Usage
-You can modify this repository's files' content or names as much as you want.
 
-### Initialization
-This template should be initialized to adhere in [Conventional Commits specification] for organize
-commits and automated generation of change log.
-
-#### Prerequisites
+### Prerequisites
 - [Node.js and NPM]
 - [pnpm] (optional)
+
+### Installation Instructions (for developers using this package)
+1. Install this package by running the command below.
+   ```
+   $ npm install --save-dev git+https://github.com/KennethTrecy/eslint-config-whitelistyle
+   ```
+
+   Or if you have installed [pnpm], run the following command:
+   ```
+   $ pnpm install --save-dev git+https://github.com/KennethTrecy/eslint-config-whitelistyle
+   ```
+2. Include the extension in your configuration file.
+   ```
+   parserOptions:
+     # Your custom parser option here if you have some...
+   # Add other options you have as desired...
+   extends:
+     - "eslint:all"
+     - "whitelistyle"
+   ```
+
+### Initialization (for contributors of this repository only)
+This template should be initialized to adhere in [Conventional Commits specification] for organize
+commits and automated generation of change log.
 
 #### Instructions
 By running the command below, all your commits will be linted to follow the [Conventional Commits
