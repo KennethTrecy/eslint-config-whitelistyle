@@ -1,7 +1,4 @@
 module.exports = {
-	"extends": [
-		"eslint:all"
-	],
 	"rules": {
 		"array-bracket-newline": [
 			"error",
