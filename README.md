@@ -10,6 +10,8 @@
 An ESLint configuration which allows the developer to set rules by relaxing or *whitelist* them,
 hence the package name.
 
+This extension assumes that other developers use `eslint:all` extension. Yet, this shared configuration package does not limit others if they would use `eslint:recommended` instead.
+
 ## Origin
 Some parts of the repository was based from [`filled_package_json`] branch of [Web Template].
 
@@ -40,6 +42,7 @@ The template has been specialized for front-end development.
      - "eslint:all"
      - "whitelistyle"
    ```
+
 
 ### Initialization (for contributors of this repository only)
 This template should be initialized to adhere in [Conventional Commits specification] for organize
