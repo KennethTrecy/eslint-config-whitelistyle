@@ -12,6 +12,8 @@ hence the package name.
 
 This extension assumes that other developers use `eslint:all` extension. Yet, this shared configuration package does not limit others if they would use `eslint:recommended` instead.
 
+**Note**: The rules in this shared configuration are somewhat opinionated and leaned to my preferences.
+
 ## Origin
 Some parts of the repository was based from [`filled_package_json`] branch of [Web Template].
 
