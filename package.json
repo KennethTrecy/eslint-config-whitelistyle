@@ -1,20 +1,13 @@
 {
-	"name": "web_template",
-	"version": "v0.4.4-web_template-dev",
-	"description": "This is a general web template repository of Kenneth Trecy Tobias. Its purpose is to be used for other templates/projects either by forking this repository, copying its files, or merging its history to other existing templates/projects.",
-	"homepage": "https://github.com/KennethTrecy/web_template",
-	"keywords": ["front-end", "web", "template-repository"],
+	"name": "eslint-config-whitelistyle",
+	"version": "0.1.0-dev",
+	"description": "An ESLint configuration where it enables all rules but explicitly turns off or warns some rules.",
+	"homepage": "https://github.com/KennethTrecy/eslint-config-whitelistyle",
+	"keywords": [ "eslint", "whitelist" ],
 	"private": "true",
 	"license": "MIT",
 	"scripts": {
-		"prepare": "husky install",
-		"dev": "npm run development",
-		"development": "echo development bundler command here",
-		"watch": "echo watched development bundler command here",
-		"prod": "npm run production",
-		"production": "echo production bundler command here",
-		"test:unit": "echo test command here",
-		"test:watch_unit": "echo watch test command here"
+		"prepare": "husky install"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^17.3.0",
