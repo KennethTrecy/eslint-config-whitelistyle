@@ -3,7 +3,10 @@
 	"version": "0.1.0-dev",
 	"description": "An ESLint configuration where it enables all rules but explicitly turns off or warns some rules.",
 	"homepage": "https://github.com/KennethTrecy/eslint-config-whitelistyle",
-	"keywords": [ "eslint", "whitelist" ],
+	"keywords": [
+		"eslint",
+		"whitelist"
+	],
 	"private": "true",
 	"license": "MIT",
 	"scripts": {
@@ -13,6 +16,10 @@
 		"@commitlint/cli": "^17.3.0",
 		"@commitlint/config-conventional": "^17.3.0",
 		"changelogen": "^0.4.0",
+		"eslint": "^8.33.0",
 		"husky": "^8.0.0"
+	},
+	"peerDependencies": {
+		"eslint": "^8.33.0"
 	}
 }
