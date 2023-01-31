@@ -5,7 +5,9 @@
 	"homepage": "https://github.com/KennethTrecy/eslint-config-whitelistyle",
 	"keywords": [
 		"eslint",
-		"whitelist"
+		"eslintconfig",
+		"whitelist",
+		"whitelistyle"
 	],
 	"private": "true",
 	"license": "MIT",
