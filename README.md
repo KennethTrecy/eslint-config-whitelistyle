@@ -45,7 +45,6 @@ The template has been specialized for front-end development.
      - "whitelistyle"
    ```
 
-
 ### Initialization (for contributors of this repository only)
 This template should be initialized to adhere in [Conventional Commits specification] for organize
 commits and automated generation of change log.
