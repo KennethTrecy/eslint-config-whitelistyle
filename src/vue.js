@@ -43,9 +43,9 @@ module.exports = {
 			"error",
 			{
 				"order": [
+					"script",
 					"template",
-					"style",
-					"script"
+					"style"
 				]
 			}
 		],
