@@ -181,6 +181,7 @@ module.exports = {
 			"error",
 			"never"
 		],
+		"semi": [ "error", "never" ],
 		"sort-imports": [
 			"error",
 			{
