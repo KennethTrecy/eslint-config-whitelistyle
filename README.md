@@ -42,11 +42,13 @@ The template has been specialized for front-end development.
    # Add other options you have as desired...
    extends:
      - "eslint:all"
+     # - "plugin:vue/vue3-recommended" # If you are using "eslint-plugin-vue" too
      - "whitelistyle"
+     # - "whitelistyle/vue" # If you are using "eslint-plugin-vue" too
    ```
 
 ### Initialization (for contributors of this repository only)
-This template should be initialized to adhere in [Conventional Commits specification] for organize
+If you want to contribute, this repository should be initialized to adhere in [Conventional Commits specification] for organize
 commits and automated generation of change log.
 
 #### Instructions
