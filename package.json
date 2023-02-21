@@ -2,12 +2,15 @@
 	"name": "eslint-config-whitelistyle",
 	"version": "0.2.0-rc0",
 	"description": "An ESLint configuration where it enables all rules but explicitly turns off or warns some rules.",
-	"main": "src/index.js",
+	"main": "lib/index.js",
 	"homepage": "https://github.com/KennethTrecy/eslint-config-whitelistyle",
 	"author": {
 		"name": "Kenneth Trecy Tobias",
 		"email": "web.kennethtobias@gmail.com"
 	},
+	"files": [
+		"lib"
+	],
 	"keywords": [
 		"eslint",
 		"eslintconfig",
