@@ -42,9 +42,9 @@ The template has been specialized for front-end development.
    # Add other options you have as desired...
    extends:
      - "eslint:all"
-     # - "plugin:vue/vue3-recommended" # If you are using "eslint-plugin-vue" too
+     # - "plugin:vue/vue3-recommended" # Add if you are using "eslint-plugin-vue" too
      - "whitelistyle"
-     # - "whitelistyle/vue" # If you are using "eslint-plugin-vue" too
+     # - "whitelistyle/vue" # Add if you are using "eslint-plugin-vue" too
    ```
 
 ### Initialization (for contributors of this repository only)
