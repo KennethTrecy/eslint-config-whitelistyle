@@ -1,6 +1,6 @@
 {
 	"name": "eslint-config-whitelistyle",
-	"version": "0.2.0",
+	"version": "0.3.0-dev",
 	"description": "An ESLint configuration where it enables all rules but explicitly turns off or warns some rules.",
 	"main": "index.js",
 	"homepage": "https://github.com/KennethTrecy/eslint-config-whitelistyle",
