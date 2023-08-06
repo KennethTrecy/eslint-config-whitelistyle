@@ -10,7 +10,9 @@
 		"email": "web.kennethtobias@gmail.com"
 	},
 	"files": [
-		"vue.js"
+		"vue.js",
+		"lib/index.js",
+		"lib/vue.js"
 	],
 	"keywords": [
 		"eslint",
