@@ -4,6 +4,7 @@
 	"description": "An ESLint configuration where it enables all rules but explicitly turns off or warns some rules.",
 	"main": "index.js",
 	"homepage": "https://github.com/KennethTrecy/eslint-config-whitelistyle",
+	"type": "commonjs",
 	"author": {
 		"name": "Kenneth Trecy Tobias",
 		"email": "web.kennethtobias@gmail.com"
